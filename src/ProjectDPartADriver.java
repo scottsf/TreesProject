@@ -48,25 +48,25 @@ public class ProjectDPartADriver {
 		System.out.println("Number of 12s \t0:  " + dupTree.countEntriesNonRecursive(12));
 		System.out.println("Number of Qs \t0:  " + nonDupTree.countEntriesNonRecursive(new String("Q")));
 
-//		System.out.println("\n*****TESTING COUNT GREATER THAN WITH STACK");
-//		System.out.println("Numbers greater than 0 \t\t15: " + dupTree.countGreaterWithStack(0));
-//		System.out.println("Numbers greater than 1 \t\t14: " + dupTree.countGreaterWithStack(1));
-//		System.out.println("Numbers greater than 5 \t\t10: " + dupTree.countGreaterWithStack(5));
-//		System.out.println("Numbers greater than 6 \t\t6: " + dupTree.countGreaterWithStack(6));
-//		System.out.println("Numbers greater than 8 \t\t3: " + dupTree.countGreaterWithStack(8));
-//		System.out.println("Numbers greater than 10 \t1: " + dupTree.countGreaterWithStack(10));
-//		System.out.println("Numbers greater than 11 \t0: " + dupTree.countGreaterWithStack(11));
-//		System.out.println("Numbers greater than 12 \t0: " + dupTree.countGreaterWithStack(12));
-//
-//		System.out.println("\n*****TESTING COUNT GREATER RECURSIVE");
-//		System.out.println("Numbers greater than 0 \t\t15: " + dupTree.countGreaterRecursive(0));
-//		System.out.println("Numbers greater than 1 \t\t14: " + dupTree.countGreaterRecursive(1));
-//		System.out.println("Numbers greater than 5 \t\t10: " + dupTree.countGreaterRecursive(5));
-//		System.out.println("Numbers greater than 6 \t\t6: " + dupTree.countGreaterRecursive(6));
-//		System.out.println("Numbers greater than 8 \t\t3: " + dupTree.countGreaterRecursive(8));
-//		System.out.println("Numbers greater than 10 \t1: " + dupTree.countGreaterRecursive(10));
-//		System.out.println("Numbers greater than 11 \t0: " + dupTree.countGreaterRecursive(11));
-//		System.out.println("Numbers greater than 12 \t0: " + dupTree.countGreaterRecursive(12));
+		System.out.println("\n*****TESTING COUNT GREATER THAN WITH STACK");
+		System.out.println("Numbers greater than 0 \t\t15: " + dupTree.countGreaterWithStack(0));
+		System.out.println("Numbers greater than 1 \t\t14: " + dupTree.countGreaterWithStack(1));
+		System.out.println("Numbers greater than 5 \t\t10: " + dupTree.countGreaterWithStack(5));
+		System.out.println("Numbers greater than 6 \t\t6: " + dupTree.countGreaterWithStack(6));
+		System.out.println("Numbers greater than 8 \t\t3: " + dupTree.countGreaterWithStack(8));
+		System.out.println("Numbers greater than 10 \t1: " + dupTree.countGreaterWithStack(10));
+		System.out.println("Numbers greater than 11 \t0: " + dupTree.countGreaterWithStack(11));
+		System.out.println("Numbers greater than 12 \t0: " + dupTree.countGreaterWithStack(12));
+
+		System.out.println("\n*****TESTING COUNT GREATER RECURSIVE");
+		System.out.println("Numbers greater than 0 \t\t15: " + dupTree.countGreaterRecursive(0));
+		System.out.println("Numbers greater than 1 \t\t14: " + dupTree.countGreaterRecursive(1));
+		System.out.println("Numbers greater than 5 \t\t10: " + dupTree.countGreaterRecursive(5));
+		System.out.println("Numbers greater than 6 \t\t6: " + dupTree.countGreaterRecursive(6));
+		System.out.println("Numbers greater than 8 \t\t3: " + dupTree.countGreaterRecursive(8));
+		System.out.println("Numbers greater than 10 \t1: " + dupTree.countGreaterRecursive(10));
+		System.out.println("Numbers greater than 11 \t0: " + dupTree.countGreaterRecursive(11));
+		System.out.println("Numbers greater than 12 \t0: " + dupTree.countGreaterRecursive(12));
 //
 //		System.out.println("\n*****TESTING EXTRA CREDIT COUNT UNIQUE VALUES");
 //		System.out.println("Unique values \t10: " + dupTree.countUniqueValues());
