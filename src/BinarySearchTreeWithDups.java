@@ -109,7 +109,22 @@ public class BinarySearchTreeWithDups<T extends Comparable<? super T>> extends B
         nodeStack.push(rootNode);
 
         // consider a loop based on the stack!
+        while (!nodeStack.isEmpty()) {
+            BinaryNode<T> node = nodeStack.pop();
+            BinaryNode<T> leftNode = node.getLeftChild();
+            BinaryNode<T> rightNode = node.getRightChild();
+            if (node.getData().compareTo(target) > 0) {
+                count++;
 
+            }
+            if (rightNode != null) {
+                nodeStack.push(rightNode);
+            }
+
+            if (leftNode != null) {
+                nodeStack.push(leftNode);
+            }
+        }
 
         return count;
     }
